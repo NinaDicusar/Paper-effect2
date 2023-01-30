@@ -1,0 +1,60 @@
+body{
+   background-image: url(paper-effect.png);
+   background-repeat: ;
+}
+.paper-effect{
+ border: 10px solid white;
+    width: 1000px;
+    height: 600px;
+    perspective: 1000px;
+}
+.paper-effect > div{
+   /* border: 1px solid #333;*/
+width: 198px;
+height: 598px;
+float: left;
+background-image: url(foto\ paper.jpg);
+}
+.paper-effect>div:first-child{
+    box-shadow:inset  30px 0px 20px 10px rgba(98, 91, 91, 0.5); ;
+
+}
+
+.paper-effect>div:nth-child(2){
+    background-position : -200px  0px;
+    transform:translateX(-50px)
+                rotateY(-45deg) 
+               scaleY(1.07);
+               box-shadow:inset -30px 0px 20px -10px rgba(98, 91, 91, 0.5);
+               
+   
+}
+.paper-effect>div:nth-child(3){
+    background-position : -400px  0px;
+    transform:translateX(-109px)
+    rotateY(45deg) 
+   scaleY(1.07);
+   box-shadow:inset -30px 0px 100px 20px rgba(0,0,0,0.9);;
+}
+.paper-effect>div:nth-child(4){
+    background-position : -600px  0px;
+    background-position : -200px  0px;
+    transform:translateX(-167px)
+                rotateY(-45deg) 
+               scaleY(1.07);
+               box-shadow:inset 10px 0px 80px 20px rgba(0,0,0,0.9);
+   
+}
+.paper-effect>div:nth-child(5){
+    background-position : -800px  0px;
+    background-position : -400px  0px;
+    transform:translateX(-226px)
+    rotateY(45deg) 
+   scaleY(1.07);
+
+   box-shadow:inset 10px 0px 80px 20px rgba(45, 44, 44, 0.9);
+}
+.paper-effect > div:hover{
+    
+}
+
